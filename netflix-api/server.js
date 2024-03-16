@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb://0.0.0.0:27017/netflix",{
+mongoose.connect("mongodb://0.0.0.0:0/netflix",{
    useNewUrlParser: true,
    useUnifiedTopology: true, 
 })
